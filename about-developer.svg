@@ -53,10 +53,8 @@
            filter="url(#smallGlow)"/>
 
   <!-- OUTER FRAME -->
-  <rect x="18"
-        y="18"
-        width="1564"
-        height="614"
+  <rect x="18" y="18"
+        width="1564" height="614"
         rx="28"
         fill="none"
         stroke="#ff003c"
@@ -64,10 +62,8 @@
         opacity="0.8"
         filter="url(#glow)"/>
 
-  <rect x="35"
-        y="35"
-        width="1530"
-        height="580"
+  <rect x="35" y="35"
+        width="1530" height="580"
         rx="20"
         fill="none"
         stroke="#ff174f"
@@ -75,10 +71,8 @@
         stroke-width="1"/>
 
   <!-- LEFT TERMINAL PANEL -->
-  <rect x="90"
-        y="105"
-        width="760"
-        height="400"
+  <rect x="90" y="105"
+        width="760" height="400"
         rx="18"
         fill="#05070d"
         stroke="#ff003c"
@@ -90,65 +84,57 @@
   <circle cx="150" cy="140" r="7" fill="#ff4d70"/>
   <circle cx="175" cy="140" r="7" fill="#8b001f"/>
 
-  <line x1="110"
-        y1="165"
-        x2="830"
-        y2="165"
+  <line x1="110" y1="165"
+        x2="830" y2="165"
         stroke="#ff003c"
         stroke-opacity="0.25"/>
 
   <!-- TERMINAL TEXT -->
-  <text x="125"
-        y="215"
+  <text x="125" y="215"
         fill="#ff174f"
         font-family="monospace"
         font-size="24">
     &gt; developer_profile
   </text>
 
-  <text x="125"
-        y="260"
+  <!-- UPDATED NAME -->
+  <text x="125" y="260"
         fill="#ffffff"
         font-family="monospace"
         font-size="38"
         font-weight="bold">
-    SHRI HARI
+    VISHNU
   </text>
 
-  <text x="125"
-        y="305"
+  <text x="125" y="305"
         fill="#ff4d70"
         font-family="monospace"
         font-size="22">
     AI &amp; DATA SCIENCE
   </text>
 
-  <text x="125"
-        y="350"
+  <text x="125" y="350"
         fill="#b8bec9"
         font-family="monospace"
         font-size="19">
     &gt; software_developer
   </text>
 
-  <text x="125"
-        y="385"
+  <text x="125" y="385"
         fill="#b8bec9"
         font-family="monospace"
         font-size="19">
     &gt; web_app_builder
   </text>
 
-  <text x="125"
-        y="420"
+  <text x="125" y="420"
         fill="#b8bec9"
         font-family="monospace"
         font-size="19">
     &gt; ai_ml_explorer
   </text>
 
-  <text x="125"
-        y="470"
+  <text x="125" y="470"
         fill="#ff003c"
         font-family="monospace"
         font-size="18">
@@ -156,16 +142,14 @@
   </text>
 
   <!-- AI CORE -->
-  <circle cx="1230"
-          cy="300"
+  <circle cx="1230" cy="300"
           r="175"
           fill="none"
           stroke="#ff003c"
           stroke-opacity="0.25"
           stroke-width="2"/>
 
-  <circle cx="1230"
-          cy="300"
+  <circle cx="1230" cy="300"
           r="135"
           fill="none"
           stroke="#ff174f"
@@ -173,15 +157,14 @@
           stroke-width="3"
           filter="url(#glow)"/>
 
-  <circle cx="1230"
-          cy="300"
+  <circle cx="1230" cy="300"
           r="75"
           fill="#10030a"
           stroke="#ff003c"
           stroke-width="3"
           filter="url(#glow)"/>
 
-  <!-- BRAIN / AI NODES -->
+  <!-- AI BRAIN -->
   <path d="M1185 275
            C1160 235 1195 205 1230 225
            C1265 205 1300 235 1275 275
@@ -222,14 +205,20 @@
         stroke-width="3"/>
 
   <!-- CIRCUIT NODES -->
-  <circle cx="1010" cy="190" r="7" fill="#ff003c" filter="url(#glow)"/>
-  <circle cx="1450" cy="190" r="7" fill="#ff003c" filter="url(#glow)"/>
-  <circle cx="1010" cy="410" r="7" fill="#ff003c" filter="url(#glow)"/>
-  <circle cx="1450" cy="410" r="7" fill="#ff003c" filter="url(#glow)"/>
+  <circle cx="1010" cy="190" r="7"
+          fill="#ff003c" filter="url(#glow)"/>
 
-  <!-- TITLE -->
-  <text x="800"
-        y="565"
+  <circle cx="1450" cy="190" r="7"
+          fill="#ff003c" filter="url(#glow)"/>
+
+  <circle cx="1010" cy="410" r="7"
+          fill="#ff003c" filter="url(#glow)"/>
+
+  <circle cx="1450" cy="410" r="7"
+          fill="#ff003c" filter="url(#glow)"/>
+
+  <!-- FOOTER TITLE -->
+  <text x="800" y="565"
         text-anchor="middle"
         fill="#ffffff"
         font-family="monospace"
