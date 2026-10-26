@@ -1,119 +1,252 @@
-<div align="center">
+<svg width="1600" height="500" viewBox="0 0 1600 500"
+     xmlns="http://www.w3.org/2000/svg">
 
-<img src="./assets/neon-banner.svg" width="100%" alt="Neon Banner">
+  <defs>
 
-<br>
+    <!-- RED NEON TEXT GRADIENT -->
+    <linearGradient id="red-glow-grad"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
 
-<img src="./assets/about-developer.svg" width="100%" alt="About Developer">
+      <stop offset="0%" stop-color="#ff4458"/>
+      <stop offset="40%" stop-color="#ff1a35"/>
+      <stop offset="70%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ff2a45"/>
 
-</div>
+      <animate attributeName="x1"
+               from="-100%" to="100%"
+               dur="7s" repeatCount="indefinite"/>
 
-<br>
+      <animate attributeName="x2"
+               from="0%" to="200%"
+               dur="7s" repeatCount="indefinite"/>
 
-<h2 align="center">⚡ TECH STACK</h2>
+    </linearGradient>
 
-<div align="center">
+    <!-- BORDER GRADIENT -->
+    <linearGradient id="border-grad"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,typescript,angular,nodejs,fastapi,mysql,git,github,vscode&perline=8" />
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="30%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#ff4d6d"/>
+      <stop offset="70%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
 
-</div>
+      <animate attributeName="x1"
+               from="-100%" to="100%"
+               dur="5s" repeatCount="indefinite"/>
 
-<br>
+      <animate attributeName="x2"
+               from="0%" to="200%"
+               dur="5s" repeatCount="indefinite"/>
 
-<h2 align="center">🚀 WHAT I BUILD</h2>
+    </linearGradient>
 
-<div align="center">
+    <!-- RED NEON GLOW -->
+    <filter id="glow-red"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
 
-| 🔥 Area | 💡 Focus |
-|---|---|
-| 🤖 Artificial Intelligence | AI-powered applications & intelligent systems |
-| 🌐 Web Development | Modern full-stack web applications |
-| 📱 App Development | Practical mobile-first solutions |
-| 🛰️ Data & APIs | Real-time data, APIs & automation |
-| 🎨 UI/UX | Futuristic, clean & user-friendly interfaces |
+      <feGaussianBlur stdDeviation="8" result="blur"/>
 
-</div>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
 
-<br>
+    </filter>
 
-<h2 align="center">💻 PROJECTS</h2>
+    <!-- SOFT AMBIENT GLOW -->
+    <filter id="ambient-blur"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
 
-<div align="center">
+      <feGaussianBlur stdDeviation="40"/>
 
-### 🔥 Industrial Fire Intelligence System
+    </filter>
 
-Satellite-powered industrial fire monitoring using **NASA FIRMS + OpenStreetMap**, with fire-risk analysis and location-based visualization.
+    <!-- TECH GRID -->
+    <pattern id="tech-grid"
+             width="30" height="30"
+             patternUnits="userSpaceOnUse">
 
-**Tech:** `Python` `FastAPI` `Angular` `Leaflet` `NASA FIRMS` `OSM`
+      <path d="M30 0 L0 0 0 30"
+            fill="none"
+            stroke="#ef4444"
+            stroke-width="0.75"
+            stroke-opacity="0.10"/>
 
-<br>
+    </pattern>
 
-### 🤖 AI-Powered Applications
+    <!-- DARK BACKGROUND -->
+    <linearGradient id="background"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
 
-Building intelligent applications that combine **AI, automation, APIs and modern interfaces** to solve real-world problems.
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0b0b16"/>
+      <stop offset="100%" stop-color="#16070b"/>
 
-</div>
+    </linearGradient>
 
-<br>
+  </defs>
 
-<h2 align="center">📊 GITHUB ACTIVITY</h2>
+  <!-- BACKGROUND -->
+  <rect width="1600" height="500"
+        fill="url(#background)"/>
 
-<div align="center">
+  <!-- GRID -->
+  <rect width="1600" height="500"
+        fill="url(#tech-grid)"/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=shriharineural-stack&show_icons=true&theme=radical&hide_border=true&rank_icon=github" height="170">
+  <!-- AMBIENT RED LIGHT -->
+  <ellipse cx="800" cy="250"
+           rx="600" ry="180"
+           fill="#ef4444"
+           opacity="0.10"
+           filter="url(#ambient-blur)"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shriharineural-stack&theme=radical&hide_border=true" height="170">
+  <!-- SIDE RED GLOW -->
+  <ellipse cx="80" cy="250"
+           rx="180" ry="220"
+           fill="#ef4444"
+           opacity="0.08"
+           filter="url(#ambient-blur)"/>
 
-</div>
+  <ellipse cx="1520" cy="250"
+           rx="180" ry="220"
+           fill="#ef4444"
+           opacity="0.08"
+           filter="url(#ambient-blur)"/>
 
-<br>
+  <!-- OUTER NEON BORDER -->
+  <rect x="18" y="18"
+        width="1564" height="464"
+        rx="28"
+        fill="none"
+        stroke="url(#border-grad)"
+        stroke-width="2"
+        opacity="0.9"
+        filter="url(#glow-red)"/>
 
-<h2 align="center">🐍 CONTRIBUTION JOURNEY</h2>
+  <!-- INNER BORDER -->
+  <rect x="35" y="35"
+        width="1530" height="430"
+        rx="22"
+        fill="none"
+        stroke="#ef4444"
+        stroke-width="1"
+        stroke-opacity="0.18"/>
 
-<div align="center">
+  <!-- TOP LABEL -->
+  <text x="800" y="125"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22"
+        font-weight="bold"
+        letter-spacing="7"
+        fill="#ff7180">
+    SOFTWARE DEVELOPER
+  </text>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shriharineural-stack&theme=radical" width="100%">
+  <!-- MAIN NAME GLOW -->
+  <text x="800" y="235"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="92"
+        font-weight="900"
+        letter-spacing="8"
+        fill="url(#red-glow-grad)"
+        filter="url(#glow-red)">
+    VISHNU
+  </text>
 
-</div>
+  <!-- MAIN NAME CLEAN LAYER -->
+  <text x="800" y="235"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="92"
+        font-weight="900"
+        letter-spacing="8"
+        fill="url(#red-glow-grad)">
+    VISHNU
+  </text>
 
-<br>
+  <!-- SUBTITLE -->
+  <text x="800" y="295"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="21"
+        letter-spacing="5"
+        fill="#f8fafc">
+    WEB • APP • SOFTWARE • AI
+  </text>
 
-<h2 align="center">🎯 CURRENTLY EXPLORING</h2>
+  <!-- TERMINAL -->
+  <rect x="540" y="340"
+        width="520" height="58"
+        rx="29"
+        fill="#080b14"
+        stroke="#ef4444"
+        stroke-opacity="0.5"/>
 
-<div align="center">
+  <circle cx="570" cy="369"
+          r="5"
+          fill="#ef4444"
+          filter="url(#glow-red)"/>
 
-`Artificial Intelligence` • `Machine Learning` • `Full Stack Development` • `Cloud` • `Automation` • `UI/UX`
+  <text x="595" y="377"
+        font-family="monospace"
+        font-size="18"
+        fill="#ff5368">
+    &gt; building_the_future_
+  </text>
 
-</div>
+  <!-- LEFT DECORATION -->
+  <g stroke="#ef4444"
+     fill="none"
+     opacity="0.75">
 
-<br>
+    <path d="M80 120 L80 80 L120 80"
+          stroke-width="2"/>
 
-<h2 align="center">⚡ DEVELOPER MINDSET</h2>
+    <path d="M80 380 L80 420 L120 420"
+          stroke-width="2"/>
 
-<div align="center">
+    <circle cx="80" cy="250"
+            r="5"
+            fill="#ef4444"/>
 
-> <b>Think.</b> <b>Build.</b> <b>Break.</b> <b>Improve.</b> <b>Repeat.</b>
+  </g>
 
-</div>
+  <!-- RIGHT DECORATION -->
+  <g stroke="#ef4444"
+     fill="none"
+     opacity="0.75">
 
-<br>
+    <path d="M1520 120 L1520 80 L1480 80"
+          stroke-width="2"/>
 
-<div align="center">
+    <path d="M1520 380 L1520 420 L1480 420"
+          stroke-width="2"/>
 
-<img src="./assets/connect-background.svg" width="100%" alt="Let's Connect">
+    <circle cx="1520" cy="250"
+            r="5"
+            fill="#ef4444"/>
 
-</div>
+  </g>
 
-<br>
+  <!-- BOTTOM TAG -->
+  <text x="800" y="445"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15"
+        letter-spacing="4"
+        fill="#64748b">
+    &lt;/ BUILD • CREATE • INNOVATE &gt;
+  </text>
 
-<div align="center">
-
-<a href="https://github.com/shriharineural-stack">
-<img src="https://img.shields.io/badge/GitHub-shriharineural--stack-ff003c?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=shriharineural-stack&style=for-the-badge&color=ff003c&label=PROFILE+VIEWS">
-
-</div>
+</svg>
