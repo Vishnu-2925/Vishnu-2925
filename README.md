@@ -1,202 +1,123 @@
-<!-- =============================== -->
-<!-- VISHNU - GITHUB PROFILE README   -->
-<!-- =============================== -->
-
 <div align="center">
 
-  <img src="./assets/neon-banner.svg"
-       width="100%"
-       alt="Vishnu Neon Developer Banner">
+<!-- NEON BANNER -->
+<img src="https://raw.githubusercontent.com/Vishnu-2925/Vishnu-2925/main/assets/neon-banner.svg"
+     width="100%"
+     alt="Vishnu Neon Developer Banner">
 
-  <br>
+<br><br>
 
-  <img src="./assets/about-developer.svg"
-       width="100%"
-       alt="About Vishnu">
+<!-- ABOUT DEVELOPER -->
+<img src="https://raw.githubusercontent.com/Vishnu-2925/Vishnu-2925/main/assets/about-developer.svg"
+     width="100%"
+     alt="About Vishnu">
 
 </div>
 
 <br>
-
-<!-- =============================== -->
-<!-- TECH STACK                      -->
-<!-- =============================== -->
 
 <h2 align="center">⚡ TECH STACK</h2>
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,typescript,angular,nodejs,fastapi,mysql,git,github,vscode&perline=8"
-       alt="Vishnu's Tech Stack">
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,ts,angular,nodejs,fastapi,mysql,git,github,vscode&perline=8"
+     alt="Vishnu Tech Stack">
 
 </div>
 
 <br>
-
-<!-- =============================== -->
-<!-- WHAT I BUILD                    -->
-<!-- =============================== -->
 
 <h2 align="center">🚀 WHAT I BUILD</h2>
 
-<div align="center">
-
 | 🔥 Area | 💡 Focus |
-|:---:|:---|
-| 🤖 Artificial Intelligence | AI-powered applications and intelligent systems |
-| 🌐 Web Development | Modern full-stack web applications |
-| 📱 App Development | Practical, mobile-first solutions |
-| 🛰️ Data & APIs | Real-time data, APIs, and automation |
-| 🎨 UI/UX Design | Futuristic, clean, user-friendly interfaces |
-
-</div>
+|---|---|
+| 🤖 Artificial Intelligence | AI-powered applications |
+| 🌐 Web Development | Full-stack web applications |
+| 📱 App Development | Mobile-first solutions |
+| 🛰️ Data & APIs | Real-time data and automation |
+| 🎨 UI/UX | Modern and user-friendly interfaces |
 
 <br>
-
-<!-- =============================== -->
-<!-- PROJECTS                        -->
-<!-- =============================== -->
 
 <h2 align="center">💻 FEATURED PROJECTS</h2>
 
-<div align="center">
+<h3 align="center">🔥 Industrial Fire Intelligence System</h3>
 
-  <h3>🔥 Industrial Fire Intelligence System</h3>
+<p align="center">
+Satellite-powered industrial fire monitoring using NASA FIRMS,
+OpenStreetMap, fire-risk analysis and location-based visualization.
+</p>
 
-  Satellite-powered industrial fire monitoring with
-  <b>NASA FIRMS and OpenStreetMap</b>, featuring fire-risk
-  analysis and location-based visualization.
+<p align="center">
+<code>Python</code> <code>FastAPI</code> <code>Angular</code>
+<code>Leaflet</code> <code>NASA FIRMS</code>
+</p>
 
-  <br><br>
+<h3 align="center">🤖 AI-Powered Applications</h3>
 
-  <b>Tech Stack</b>
-
-  <br>
-
-  <code>Python</code>
-  <code>FastAPI</code>
-  <code>Angular</code>
-  <code>Leaflet</code>
-  <code>NASA FIRMS</code>
-  <code>OpenStreetMap</code>
-
-  <br><br>
-
-  ---
-
-  <h3>🤖 AI-Powered Applications</h3>
-
-  Developing intelligent applications that combine
-  <b>AI, automation, APIs, and modern interfaces</b>
-  to solve real-world problems.
-
-  <br><br>
-
-  <code>Artificial Intelligence</code>
-  <code>Machine Learning</code>
-  <code>Python</code>
-  <code>APIs</code>
-
-</div>
+<p align="center">
+Building intelligent applications using AI, automation,
+APIs and modern interfaces.
+</p>
 
 <br>
-
-<!-- =============================== -->
-<!-- GITHUB STATS                    -->
-<!-- =============================== -->
 
 <h2 align="center">📊 GITHUB ACTIVITY</h2>
 
 <div align="center">
 
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=shriharineural-stack&show_icons=true&theme=radical&hide_border=true&rank_icon=github"
-    height="170"
-    alt="Vishnu's GitHub Stats">
+<img src="https://github-readme-stats.vercel.app/api?username=Vishnu-2925&show_icons=true&theme=radical&hide_border=true"
+     height="170"
+     alt="GitHub Statistics">
 
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=shriharineural-stack&theme=radical&hide_border=true"
-    height="170"
-    alt="Vishnu's GitHub Streak">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishnu-2925&theme=radical&hide_border=true"
+     height="170"
+     alt="GitHub Streak">
 
 </div>
 
 <br>
 
-<!-- =============================== -->
-<!-- PROFILE SUMMARY                 -->
-<!-- =============================== -->
-
-<h2 align="center">🐍 CONTRIBUTION JOURNEY</h2>
+<h2 align="center">📈 CONTRIBUTION SUMMARY</h2>
 
 <div align="center">
 
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shriharineural-stack&theme=radical"
-    width="100%"
-    alt="Vishnu's GitHub Contribution Summary">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vishnu-2925&theme=radical"
+     width="100%"
+     alt="GitHub Contribution Summary">
 
 </div>
 
 <br>
-
-<!-- =============================== -->
-<!-- CURRENTLY EXPLORING             -->
-<!-- =============================== -->
 
 <h2 align="center">🎯 CURRENTLY EXPLORING</h2>
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Artificial_Intelligence-ff003c?style=for-the-badge&logo=openai&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Machine_Learning-ff174f?style=for-the-badge&logo=python&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Full_Stack_Development-ff003c?style=for-the-badge&logo=angular&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Cloud-ff174f?style=for-the-badge&logo=icloud&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Automation-ff003c?style=for-the-badge&logo=fastapi&logoColor=white">
-
-  <img src="https://img.shields.io/badge/UI%2FUX-ff174f?style=for-the-badge&logo=figma&logoColor=white">
+`Artificial Intelligence` • `Machine Learning` •
+`Full Stack Development` • `Cloud` • `Automation` • `UI/UX`
 
 </div>
 
 <br>
-
-<!-- =============================== -->
-<!-- DEVELOPER MINDSET               -->
-<!-- =============================== -->
 
 <h2 align="center">⚡ DEVELOPER MINDSET</h2>
 
 <div align="center">
 
-  <h3>
-    <code>THINK.</code>
-    <code>BUILD.</code>
-    <code>BREAK.</code>
-    <code>IMPROVE.</code>
-    <code>REPEAT.</code>
-  </h3>
+<h3>THINK • BUILD • BREAK • IMPROVE • REPEAT</h3>
 
-  <p>
-    <i>Turning ideas into code and code into innovation.</i>
-  </p>
+<i>Turning ideas into code and code into innovation.</i>
 
 </div>
 
 <br>
 
-<!-- =============================== -->
-<!-- CONNECT                         -->
-<!-- =============================== -->
-
 <div align="center">
 
-  <img src="./assets/connect-background.svg"
-       width="100%"
-       alt="Let's Connect with Vishnu">
+<img src="https://raw.githubusercontent.com/Vishnu-2925/Vishnu-2925/main/assets/connect-background.svg"
+     width="100%"
+     alt="Let's Connect with Vishnu">
 
 </div>
 
@@ -206,30 +127,18 @@
 
 <div align="center">
 
-  <a href="https://github.com/shriharineural-stack">
-    <img
-      src="https://img.shields.io/badge/GitHub-VISHNU-ff003c?style=for-the-badge&logo=github&logoColor=white"
-      alt="Vishnu on GitHub">
-  </a>
+<a href="https://github.com/Vishnu-2925">
+<img src="https://img.shields.io/badge/GitHub-VISHNU-ff003c?style=for-the-badge&logo=github&logoColor=white"
+     alt="Vishnu GitHub">
+</a>
 
-  <br><br>
+<br><br>
 
-  <img
-    src="https://komarev.com/ghpvc/?username=shriharineural-stack&style=for-the-badge&color=ff003c&label=PROFILE+VIEWS"
-    alt="Profile Views">
+<img src="https://komarev.com/ghpvc/?username=Vishnu-2925&style=for-the-badge&color=ff003c&label=PROFILE+VIEWS"
+     alt="Profile Views">
 
-</div>
+<br><br>
 
-<br>
-
-<!-- =============================== -->
-<!-- FOOTER                          -->
-<!-- =============================== -->
-
-<div align="center">
-
-  <h3>🔥 BUILDING THE FUTURE, ONE LINE OF CODE AT A TIME 🔥</h3>
-
-  <sub>Designed with passion by VISHNU ❤️‍🔥</sub>
+<h3>🔥 BUILDING THE FUTURE, ONE LINE OF CODE AT A TIME 🔥</h3>
 
 </div>
